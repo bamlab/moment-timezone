@@ -17,7 +17,7 @@
 	}
 }(this, function (moment) {
 	"use strict";
-	moment = moment.default;
+	moment = moment.default || moment;
 
 	// Do not load moment-timezone a second time.
 	// if (moment.tz !== undefined) {
